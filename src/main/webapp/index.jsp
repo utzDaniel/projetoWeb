@@ -2,12 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Biblioteca</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
+<h1><%= "Biblioteca!" %></h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="cadastrar-livro.jsp">Cadastrar Livro</a>
 </body>
 </html>
