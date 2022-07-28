@@ -6,9 +6,14 @@ import lombok.Getter;
 
 @Data
 @Getter
-@AllArgsConstructor
 public class Livro {
 
     private String nome;
     private String autor;
+    private Long id;
+
+    public Livro(String nome, String autor) {
+        this.nome = nome;
+        this.autor = autor;
+    }
 }

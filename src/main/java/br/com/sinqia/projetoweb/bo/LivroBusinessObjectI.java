@@ -8,5 +8,11 @@ public interface LivroBusinessObjectI {
 
     Livro save(Livro livro);
 
-    List<Livro> listarAll();
+    List<Livro> findAll();
+
+    void delete(String idLivro);
+
+    Livro getById(String idLivro);
+
+    Livro update(Livro livro);
 }
